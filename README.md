@@ -1,32 +1,24 @@
-Text Summarization Tool
-A web-based tool for summarizing text or web articles using the BART model from Hugging Face. Built with Streamlit and BeautifulSoup.
-Features
+# 📝 Text Summarizer App (LLM + Streamlit)
 
-Summarize user-provided text or content from URLs.
-Adjustable summary lengths (Short, Medium, Long).
-Clean web interface for easy interaction.
+A simple app to summarize long text or articles using Hugging Face's `facebook/bart-large-cnn` model, with an interactive UI built in Streamlit.
 
-Setup
+## 🚀 Features
 
-Clone the repo:gem git clone <your-repo-url>
+* Summarize plain text or a URL
+* Select summary length: short, medium, or long
+* Clean UI with Streamlit
+* Uses Hugging Face Transformers (`BART`)
+
+## 🛠️ Setup Instructions
+
+1. Clone this repo:<br/>
+git clone  https://github.com/Thashmila-Dewmini/text-summarizer.git<br/>
+cd text-summarizer
+
+2. Install dependencies:<br/>
+pip install -r requirements.txt
+
+3. Run the app:<br/>
+streamlit run app.py
 
 
-Install dependencies:pip install -r requirements.txt
-
-
-Run the app:streamlit run app.py
-
-
-
-Demo
-[Add a link to a live demo or screenshot]
-Future Improvements
-
-Compare summaries from multiple LLMs (e.g., BART, T5).
-Add text cleaning for better web scraping.
-Support summary export as a text file.
-
-Requirements
-
-Python 3.8+
-See requirements.txt for dependencies.
